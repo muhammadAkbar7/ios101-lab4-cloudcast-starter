@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		54BDACD02BA128F40085F4FA /* WeatherForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BDACCF2BA128F40085F4FA /* WeatherForecastService.swift */; };
 		997BF5EB29D4838D0099F2B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF5EA29D4838D0099F2B4 /* AppDelegate.swift */; };
 		997BF5ED29D4838D0099F2B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF5EC29D4838D0099F2B4 /* SceneDelegate.swift */; };
 		997BF5EF29D4838D0099F2B4 /* ForecastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997BF5EE29D4838D0099F2B4 /* ForecastViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54BDACCF2BA128F40085F4FA /* WeatherForecastService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastService.swift; sourceTree = "<group>"; };
 		997BF5E729D4838D0099F2B4 /* CloudCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		997BF5EA29D4838D0099F2B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		997BF5EC29D4838D0099F2B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		997BF5DE29D4838D0099F2B4 = {
 			isa = PBXGroup;
 			children = (
+				54BDACCF2BA128F40085F4FA /* WeatherForecastService.swift */,
 				997BF5E929D4838D0099F2B4 /* CloudCast */,
 				997BF60029D4838E0099F2B4 /* CloudCastTests */,
 				997BF60A29D4838E0099F2B4 /* CloudCastUITests */,
@@ -263,6 +266,7 @@
 			files = (
 				997BF5EF29D4838D0099F2B4 /* ForecastViewController.swift in Sources */,
 				997BF5EB29D4838D0099F2B4 /* AppDelegate.swift in Sources */,
+				54BDACD02BA128F40085F4FA /* WeatherForecastService.swift in Sources */,
 				997BF5ED29D4838D0099F2B4 /* SceneDelegate.swift in Sources */,
 				99E9824929D7944B0084E9EB /* CurrentWeatherForecast.swift in Sources */,
 			);
@@ -441,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGR696TJV2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CloudCast/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CodePath.CloudCast;
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.CloudCast.Akbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -468,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGR696TJV2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CloudCast/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = CodePath.CloudCast;
+				PRODUCT_BUNDLE_IDENTIFIER = CodePath.CloudCast.Akbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
